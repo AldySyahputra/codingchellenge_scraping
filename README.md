@@ -9,4 +9,23 @@ Prasyarat
 3. Chromium/Chrome (Diperlukan oleh Puppeteer)
 
 Langkah-Langkah Instalasi :
+1. Kloning Repository
+- git clone [ https://github.com/AldySyahputra/codingchellenge_scraping.git ]
+- cd codingchellenge_scraping
+
+2. Instal Dependencies
+- npm install
+
+3. Konfigurasi Variabel Lingkungan
+# .env
+AI_API_KEY="YOUR_DEEPSEEK_API_KEY"
+PORT=3000 
+
+Cara menjalankan Proyek :
+1. Jalankan Server
+- npm start
+
+2. Akses API [ Panggil endpoint /api/scrape dengan parameter keyword yang diinginkan ]
+- http://localhost:3000/api/scrape?keyword=..
+
 
