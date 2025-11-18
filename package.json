@@ -1,0 +1,22 @@
+{
+  "name": "ebay-ai-scraper",
+  "version": "1.0.0",
+  "description": "API to scrape eBay product listings using AI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.12.0",            
+    "puppeteer-extra": "^3.3.4", 
+    "puppeteer-extra-plugin-stealth": "^2.11.2", 
+    "dotenv": "^16.4.5",
+    "openai": "^4.49.1" 
+  },
+  "keywords": [
+    "javascript",
+    "web-scraping",
+    "ai"
+  ]
+}
